@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:image_picker_example/birth_data.dart';
 import 'package:image_picker_example/image_pick_page.dart';
 
 void main() {
@@ -12,13 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-       
-        primarySwatch: Colors.blue,
-      ),
-      home: ImagePickerPage()
-    );
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: BirthData());
   }
 }
-
